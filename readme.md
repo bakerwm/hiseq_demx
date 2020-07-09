@@ -10,11 +10,11 @@ Demultiplexing Illumina sequencing reads
 
 This script was tested for `python 3.6` only, and the following two modules are required, (recommend `conda` to manage the modules)
 
-+ xopen (=0.9.0)
-+ python-levenshtein (=0.12.0)
++ xopen (=`0.9.0`)
++ python-levenshtein (=`0.12.0`)
 
 ```
-conda install xopen=0.9.0 python-levenshtein=0.12.0
+$ conda install xopen=0.9.0 python-levenshtein=0.12.0
 ```
 
 ### Installing
@@ -24,7 +24,7 @@ No need to install the script. Just run the script directly.
 1. Clone this repo to your local machine   
 
 ```
-$ git clone https://github.com/bakerwm/hiseq_demx.git
+$ git clone https://github.com/bakerwm/hiseq_demx
 ```
 
 2. It works, if you can see the following message    
@@ -68,7 +68,7 @@ optional arguments:
 
 ## Running the tests
 
-It support `fastq` file in the following format:  
+It supports `fastq` file in the following format:  
 
 + `P7, (P5, optional)` index saved in name line (**1st line**) 
 
@@ -183,7 +183,7 @@ sample2,CAGATC,NULL,NULL
 
 ## Authors
 
-+ Ming Wang  wangmcas{AT}gmail.com
++ Ming Wang :  wangmcas{AT}gmail.com
 
 ## License
 

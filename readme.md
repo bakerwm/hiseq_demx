@@ -183,7 +183,7 @@ sample2,CAGATC,NULL,NULL
 
 ## Authors
 
-+ Ming Wang
++ Ming Wang  wangmcas{AT}gmail.com
 
 ## License
 
@@ -191,5 +191,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 
 ## Acknowledgements  
+
++ [readfq](https://github.com/lh3/readfq) - A python reader for fastq file, by Heng Li   
 
 

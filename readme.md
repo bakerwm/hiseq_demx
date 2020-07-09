@@ -8,11 +8,13 @@ Demultiplexing Illumina sequencing reads
 
 This script was tested for `python 3.6` only, and the following two modules are required, (recommend `conda` to manage the modules)
 
+**Recommend** create a `ENV` for demx using conda
+
 + xopen (=`0.9.0`)
 + python-levenshtein (=`0.12.0`)
 
 ```
-$ conda install xopen=0.9.0 python-levenshtein=0.12.0
+$ conda create -n demx python=3.6 xopen=0.9.0 python-levenshtein=0.12.0
 ```
 
 ### Installing

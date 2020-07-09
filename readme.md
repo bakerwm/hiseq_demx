@@ -138,6 +138,27 @@ RT -----------------------------Demx Report: END-----------------------------
 `-m 0` : Number of mismatches allowed, for searching barcode
 
 
+### Barcode; !! Using `fastx_barcode_splitter.pl` for SE reads, 
+
+see [fastx_toolkit](https://github.com/agordon/fastx_toolkit) documentation.
+
+For this example, barcode are `NN{4nt}NNN` in this format, and `fastx_barcode_splitter.pl` only support reading barcode from the beginning of read, (no matter partial match). 
+
+So, We can trim first 2 bp from read, and then run the splitter:  
+
+```
+$ zcat iclip_1.fq.gz | fastx_trimmer -f 3 | fastx_barcode_splitter.pl --bcfile bc.txt --bol --mismatches 0 --prefix aaaaaa. --suffix .fq
+
+Barcode Count   Location
+sample1 200     aaaaaa.sample1.fq
+sample2 100     aaaaaa.sample2.fq
+unmatched       200     aaaaaa.unmatched.fq
+total   500
+```
+
+
+
+
 ### Both P7 index and Inline Barcode
 
 In this example, inline-barcode (eCLIP-like reads) were located at the 5' end of `read2`, in the following format: `5'{6bp}---`, so the following arguments are requried:

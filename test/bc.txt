@@ -1,0 +1,2 @@
+sample1 CAAT
+sample2 CTTA

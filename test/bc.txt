@@ -1,2 +1,2 @@
-sample1 CAAT
-sample2 CTTA
+sample1 GGCG
+sample2 TTAA

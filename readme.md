@@ -112,7 +112,6 @@ In this example, (iCLIP reads), barcode were located at the 5' end of `read1`, i
 
 ```
 $ python ../demx.py -1 iclip_1.fq.gz -2 iclip_2.fq.gz -o results/bc/pe -s info_iclip.csv -x 1 -l 3 -r 2 -m 0 
-$ python ../demx.py -1 iclip_1.fq.gz -2 iclip_2.fq.gz -o results/bc/pe -s info_iclip.csv -x 1 -l 3 -r 2 -m 0 
 
 ...
 

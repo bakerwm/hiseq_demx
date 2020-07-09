@@ -407,6 +407,8 @@ class Demx(object):
         n_cpu = os.cpu_count() # alternative: multiprocessing.cpu_count()
 
         max_jobs = int(n_cpu / 10.0)
+        if max_jobs < 1:
+            max_jobs = 1
         ## check parallel_jobs (max: 1/10 of n_cpus)
         if self.parallel_jobs > max_jobs: 
             log.warning('Too large, change parallel_jobs from {} to {}'.format(

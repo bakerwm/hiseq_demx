@@ -2,8 +2,6 @@
 
 Demultiplexing Illumina sequencing reads
 
-
-
 ## Getting Started
 
 ### Prerequisites
@@ -108,13 +106,13 @@ RT -----------------------------Demx Report: END-----------------------------
 `-r 3` : `3` bp on the right of barcode    
 `-m 0` : Number of mismatches allowed, for searching barcode
 
-
 ### Inline Barcode
 
-In this example, (iCLIP reads), barcode were located at the 5' end of `read1`, in the following format: `5'-NN{4bp}NNN---`, so the following arguments are requried:
+In this example, (iCLIP reads), barcode were located at the 5' end of `read1`, in the following format: `5'-NNN{4bp}NN---`, so the following arguments are requried:
 
 ```
-$ python ../demx.py -1 iclip_1.fq.gz -2 iclip_2.fq.gz -o results/bc/pe -s info_iclip.csv -x 1 -l 2 -r 3 -m 0 
+$ python ../demx.py -1 iclip_1.fq.gz -2 iclip_2.fq.gz -o results/bc/pe -s info_iclip.csv -x 1 -l 3 -r 2 -m 0 
+$ python ../demx.py -1 iclip_1.fq.gz -2 iclip_2.fq.gz -o results/bc/pe -s info_iclip.csv -x 1 -l 3 -r 2 -m 0 
 
 ...
 
@@ -127,14 +125,13 @@ RT     sum                                                       500  100.00%
 RT -----------------------------Demx Report: END-----------------------------
 ```
 
-
 `-1`   : path to `read1` file  
 `-2`   : path to `read2` file   
 `-o`   : path to directory, saving the results
 `-s`   : path to sample_info file (CSV)
 `-x 1` : barcode located in `read1`  
-`-l 2` : `2` bp on the left of barcode   
-`-r 3` : `3` bp on the right of barcode    
+`-l 3` : `3` bp on the left of barcode   
+`-r 2` : `2` bp on the right of barcode    
 `-m 0` : Number of mismatches allowed, for searching barcode
 
 
@@ -142,18 +139,18 @@ RT -----------------------------Demx Report: END-----------------------------
 
 see [fastx_toolkit](https://github.com/agordon/fastx_toolkit) documentation.
 
-For this example, barcode are `NN{4nt}NNN` in this format, and `fastx_barcode_splitter.pl` only support reading barcode from the beginning of read, (no matter partial match). 
+For this example, barcode are `NNN{4nt}NN` in this format, and `fastx_barcode_splitter.pl` only support reading barcode from the beginning of read, (no matter partial match). 
 
-So, We can trim first 2 bp from read, and then run the splitter:  
+So, We can trim first 3 bp from read, and then run the splitter:  
 
 ```
-$ zcat iclip_1.fq.gz | fastx_trimmer -f 3 | fastx_barcode_splitter.pl --bcfile bc.txt --bol --mismatches 0 --prefix aaaaaa. --suffix .fq
+$ zcat iclip_1.fq.gz | fastx_trimmer -f 4 | fastx_barcode_splitter.pl --bcfile bc.txt --bol --mismatches 0 --prefix aaaaaa. --suffix .fq
 
 Barcode Count   Location
-sample1 200     aaaaaa.sample1.fq
+sample1 100     aaaaaa.sample1.fq
 sample2 100     aaaaaa.sample2.fq
-unmatched       200     aaaaaa.unmatched.fq
-total   500
+unmatched       100     aaaaaa.unmatched.fq
+total   300
 ```
 
 

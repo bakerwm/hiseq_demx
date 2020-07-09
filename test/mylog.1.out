@@ -1,0 +1,162 @@
+[2020-07-09 09:50:15 INFO] Check index status
+number of mismatch......................: 0         
+all index unique........................: ok        
+filename unique.........................: ok        
+index-1 [ACGTN].........................: ok        
+index-2 [ACGTN].........................: ok        
+barcode [ACGTN].........................: ok        
+index-1 mismatch........................: ok        
+index-2 mismatch........................: ok        
+barcode mismatch........................: ok        
+barcode width consistent................: ok        
+[2020-07-09 09:50:15 INFO] Mission: pe:1 p7:0 p5:0 barcode:1
+[2020-07-09 09:50:15 INFO] Running barcode_pe, results/bc/pe/_tmp
+[2020-07-09 09:50:15 INFO] Saving file: results/bc/pe/sample1_1.fq.gz
+[2020-07-09 09:50:15 INFO] Saving file: results/bc/pe/sample1_2.fq.gz
+[2020-07-09 09:50:16 INFO] Saving file: results/bc/pe/sample2_1.fq.gz
+[2020-07-09 09:50:16 INFO] Saving file: results/bc/pe/sample2_2.fq.gz
+[2020-07-09 09:50:16 INFO] Saving file: undemx
+RT ----------------------------Demx Report: BEGIN----------------------------
+RT num filename                                                count  percent
+RT   1 sample1                                                   200   40.00%
+RT   2 sample2                                                   100   20.00%
+RT   3 undemx                                                    200   40.00%
+RT     sum                                                       500  100.00%
+RT -----------------------------Demx Report: END-----------------------------
+[2020-07-09 09:50:16 INFO] Demultiplexing finished!
+[2020-07-09 09:50:16 INFO] Check index status
+number of mismatch......................: 0         
+all index unique........................: ok        
+filename unique.........................: ok        
+index-1 [ACGTN].........................: ok        
+index-2 [ACGTN].........................: ok        
+barcode [ACGTN].........................: ok        
+index-1 mismatch........................: ok        
+index-2 mismatch........................: ok        
+barcode mismatch........................: ok        
+barcode width consistent................: ok        
+[2020-07-09 09:50:16 INFO] Mission: pe:0 p7:0 p5:0 barcode:1
+[2020-07-09 09:50:16 INFO] Running barcode_se, results/bc/se/_tmp
+[2020-07-09 09:50:16 INFO] Saving file: results/bc/se/sample1.fq.gz
+[2020-07-09 09:50:16 INFO] Saving file: results/bc/se/sample2.fq.gz
+[2020-07-09 09:50:16 INFO] Saving file: undemx
+RT ----------------------------Demx Report: BEGIN----------------------------
+RT num filename                                                count  percent
+RT   1 sample1                                                   200   40.00%
+RT   2 sample2                                                   100   20.00%
+RT   3 undemx                                                    200   40.00%
+RT     sum                                                       500  100.00%
+RT -----------------------------Demx Report: END-----------------------------
+[2020-07-09 09:50:16 INFO] Demultiplexing finished!
+[2020-07-09 09:50:16 INFO] Check index status
+number of mismatch......................: 0         
+all index unique........................: ok        
+filename unique.........................: ok        
+index-1 [ACGTN].........................: ok        
+index-2 [ACGTN].........................: ok        
+barcode [ACGTN].........................: ok        
+index-1 mismatch........................: ok        
+index-2 mismatch........................: ok        
+barcode mismatch........................: ok        
+barcode width consistent................: ok        
+[2020-07-09 09:50:16 INFO] Mission: pe:1 p7:1 p5:0 barcode:0
+[2020-07-09 09:50:16 INFO] Running index_pe, results/p7/pe/_tmp
+[2020-07-09 09:50:16 INFO] Saving file: results/p7/pe/sample1_1.fq.gz
+[2020-07-09 09:50:16 INFO] Saving file: results/p7/pe/sample1_2.fq.gz
+[2020-07-09 09:50:16 INFO] Saving file: results/p7/pe/sample2_1.fq.gz
+[2020-07-09 09:50:16 INFO] Saving file: results/p7/pe/sample2_2.fq.gz
+[2020-07-09 09:50:16 INFO] Saving file: undemx
+RT ----------------------------Demx Report: BEGIN----------------------------
+RT num filename                                                count  percent
+RT   1 sample1                                                   536   53.60%
+RT   2 sample2                                                   149   14.90%
+RT   3 undemx                                                    315   31.50%
+RT     sum                                                      1000  100.00%
+RT -----------------------------Demx Report: END-----------------------------
+[2020-07-09 09:50:16 INFO] Demultiplexing finished!
+[2020-07-09 09:50:16 INFO] Check index status
+number of mismatch......................: 0         
+all index unique........................: ok        
+filename unique.........................: ok        
+index-1 [ACGTN].........................: ok        
+index-2 [ACGTN].........................: ok        
+barcode [ACGTN].........................: ok        
+index-1 mismatch........................: ok        
+index-2 mismatch........................: ok        
+barcode mismatch........................: ok        
+barcode width consistent................: ok        
+[2020-07-09 09:50:16 INFO] Mission: pe:0 p7:1 p5:0 barcode:0
+[2020-07-09 09:50:16 INFO] Running index_se, results/p7/se/_tmp
+[2020-07-09 09:50:16 INFO] Saving file: results/p7/se/sample1.fq.gz
+[2020-07-09 09:50:16 INFO] Saving file: results/p7/se/sample2.fq.gz
+[2020-07-09 09:50:16 INFO] Saving file: undemx
+RT ----------------------------Demx Report: BEGIN----------------------------
+RT num filename                                                count  percent
+RT   1 sample1                                                   536   53.60%
+RT   2 sample2                                                   149   14.90%
+RT   3 undemx                                                    315   31.50%
+RT     sum                                                      1000  100.00%
+RT -----------------------------Demx Report: END-----------------------------
+[2020-07-09 09:50:16 INFO] Demultiplexing finished!
+[2020-07-09 09:50:16 INFO] Check index status
+number of mismatch......................: 0         
+all index unique........................: ok        
+filename unique.........................: ok        
+index-1 [ACGTN].........................: ok        
+index-2 [ACGTN].........................: ok        
+barcode [ACGTN].........................: ok        
+index-1 mismatch........................: ok        
+index-2 mismatch........................: ok        
+barcode mismatch........................: ok        
+barcode width consistent................: ok        
+[2020-07-09 09:50:16 INFO] Mission: pe:1 p7:1 p5:0 barcode:1
+[2020-07-09 09:50:16 INFO] Running index_pe, results/p7_bc/pe/_tmp
+[2020-07-09 09:50:16 INFO] Running barcode_pe, results/p7_bc/pe/_tmp/CATGGC
+[2020-07-09 09:50:16 INFO] Saving file: results/p7_bc/pe/sample1_1.fq.gz
+[2020-07-09 09:50:16 INFO] Saving file: results/p7_bc/pe/sample1_2.fq.gz
+[2020-07-09 09:50:16 INFO] Saving file: results/p7_bc/pe/sample2_1.fq.gz
+[2020-07-09 09:50:16 INFO] Saving file: results/p7_bc/pe/sample2_2.fq.gz
+[2020-07-09 09:50:16 INFO] Saving file: results/p7_bc/pe/sample3_1.fq.gz
+[2020-07-09 09:50:16 INFO] Saving file: results/p7_bc/pe/sample3_2.fq.gz
+[2020-07-09 09:50:16 INFO] Saving file: results/p7_bc/pe/sample4_1.fq.gz
+[2020-07-09 09:50:16 INFO] Saving file: results/p7_bc/pe/sample4_2.fq.gz
+[2020-07-09 09:50:16 INFO] Saving file: undemx
+RT ----------------------------Demx Report: BEGIN----------------------------
+RT num filename                                                count  percent
+RT   1 sample1                                                   100   20.00%
+RT   2 sample2                                                   100   20.00%
+RT   3 sample3                                                   100   20.00%
+RT   4 sample4                                                   100   20.00%
+RT   5 undemx                                                    100   20.00%
+RT     sum                                                       500  100.00%
+RT -----------------------------Demx Report: END-----------------------------
+[2020-07-09 09:50:16 INFO] Demultiplexing finished!
+[2020-07-09 09:50:16 INFO] Check index status
+number of mismatch......................: 0         
+all index unique........................: ok        
+filename unique.........................: ok        
+index-1 [ACGTN].........................: ok        
+index-2 [ACGTN].........................: ok        
+barcode [ACGTN].........................: ok        
+index-1 mismatch........................: ok        
+index-2 mismatch........................: ok        
+barcode mismatch........................: ok        
+barcode width consistent................: ok        
+[2020-07-09 09:50:16 INFO] Mission: pe:0 p7:1 p5:0 barcode:1
+[2020-07-09 09:50:16 INFO] Running index_se, results/p7_bc/se/_tmp
+[2020-07-09 09:50:16 INFO] Running barcode_se, results/p7_bc/se/_tmp/CATGGC
+[2020-07-09 09:50:17 INFO] Saving file: results/p7_bc/se/sample1.fq.gz
+[2020-07-09 09:50:17 INFO] Saving file: results/p7_bc/se/sample2.fq.gz
+[2020-07-09 09:50:17 INFO] Saving file: results/p7_bc/se/sample3.fq.gz
+[2020-07-09 09:50:17 INFO] Saving file: results/p7_bc/se/sample4.fq.gz
+[2020-07-09 09:50:17 INFO] Saving file: undemx
+RT ----------------------------Demx Report: BEGIN----------------------------
+RT num filename                                                count  percent
+RT   1 sample1                                                   100   20.00%
+RT   2 sample2                                                   100   20.00%
+RT   3 sample3                                                   100   20.00%
+RT   4 sample4                                                   100   20.00%
+RT   5 undemx                                                    100   20.00%
+RT     sum                                                       500  100.00%
+RT -----------------------------Demx Report: END-----------------------------
+[2020-07-09 09:50:17 INFO] Demultiplexing finished!

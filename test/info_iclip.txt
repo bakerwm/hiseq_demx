@@ -1,0 +1,10 @@
+NULL	CAAT	sample1
+NULL	CTTA	sample2
+NULL	TAAT	sample3
+NULL	GTTA	sample4
+NULL	AGGT	sample5
+NULL	TTTA	sample6
+NULL	CGGT	sample7
+NULL	CTTG	sample8
+NULL	AAAC	sample9
+NULL	GGGC	sample10
